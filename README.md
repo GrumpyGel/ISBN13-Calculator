@@ -104,7 +104,7 @@ Project Link: [https://github.com/GrumpyGel/ISBN13-Calculator](https://github.co
 ## Acknowledgements
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Damon Drake's sample barcode code on this StackOverflow thread](https://stackoverflow.com/questions/13072676/how-do-i-create-a-dynamic-isbn-13-barcode-image-in-c-sharp)
+* [Damon Drake's sample Bookland barcode class code on this StackOverflow thread](https://stackoverflow.com/questions/13072676/how-do-i-create-a-dynamic-isbn-13-barcode-image-in-c-sharp)
 
 
 
