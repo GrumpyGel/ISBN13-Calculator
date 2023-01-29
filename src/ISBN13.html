@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISBN13 Calculator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="ISBN13.css"/> 
+    <script type="text/javascript" src="ISBN13.js"></script>
+  </head>
+  <body onload="Init();">
+    <div id="ContainerOuter">
+    <div id="Container">
+      <h1>ISBN13 Calculator</h1>
+      <div id="InputArea">
+        <input type="text" id="TheCode" value="" oninput="Calculate();"/>
+      </div>
+      <div id="AnalysisHead">
+        <div class="AnalysisLine"><div class="Position">Pos</div><div class="Code">Char</div><div class="Weight">Weight</div><div class="Sum">Sum</div></div>
+      </div>
+      <div id="AnalysisArea">
+      </div>
+      <div id="ResultArea">
+        Result : <span id="Result"></span>
+      <div>
+      <div id="BarCodeArea">
+        <img id="BarCode" src="http://www.mydocz.com/images/spacer.gif"/>
+      <div>
+    </div>
+    </div>
+    <template id="LineTemplate">
+      <div id="Line_Index" class="AnalysisLine"><div>_Position</div><div id="Code_Index"></div><div id="Weight_Index"></div><div id="Sum_Index"></div></div>
+    </template>
+  </body>
+</html>

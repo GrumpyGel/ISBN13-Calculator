@@ -1,0 +1,78 @@
+* { min-width 0px; }
+
+body {
+  margin: 0;
+  padding: 0px;
+  font: normal 16px/130% Helvetica;
+  background-color:#ffffff;
+}
+
+#Container {
+  margin: 30px auto;
+  padding: 20px 0;
+}
+
+#Container h1 {
+  text-align: center;
+}
+
+
+#InputArea {
+  text-align: center;
+}
+
+#AnalysisHead {
+  margin-top: 10px;
+}
+
+#AnalysisHead .AnalysisLine {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+#AnalysisArea     { }
+
+.AnalysisLine {
+  display: flex;
+  flex-flow: row wrap;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.AnalysisLine:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.AnalysisLine div {
+  flex: 0 0 80px;
+  text-align: center;
+}
+
+#ResultArea {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#ResultArea span {
+  font-weight: bold;
+}
+
+#BarCodeArea {
+  margin-top: 10px;
+  height: 105px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 440px) {
+
+body {
+  background-color:#ff9900;
+}
+
+#Container {
+  width: 400px;
+  border-radius: 20px;
+  background-color:#ffffff;
+}
+
+}
