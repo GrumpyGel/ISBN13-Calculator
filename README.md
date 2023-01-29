@@ -20,7 +20,7 @@ Calculate ISBN13 Check Digit
   <h3 align="center">ISBN13-Calculator</h3>
 
   <p align="center">
-    This is a simply web tool for calculating the ISBN13 Check digit.
+    This is a simple web tool for calculating ISBN13 Check Digits.
     <br />
     <br />
     <br />
