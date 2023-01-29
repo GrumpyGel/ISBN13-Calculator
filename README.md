@@ -68,6 +68,8 @@ Each .js, .aspx and .cs file has in-line documentation.
 
 The barcode produced is only appropriate for Bookland ISBN13 numbers beginning 978 or 979.
 
+Whilst the CSS styling is responsive and displays the calculator content within a panel on devices larger than a mobile phone, the minimum screen width allowable is 320 pixels.  Horizontal scrolling will be needed on devices narrower than this.
+
 
 ### Source Files
 
