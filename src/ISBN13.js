@@ -60,7 +60,7 @@ function Calculate() {
   var i_Weight = 0;
   var i_Sum = 0;
   var i_TotalSum = 0;
-  var i_BarCode = "http://www.mydocz.com/images/spacer.gif";
+  var i_BarCode = "https://www.mydocz.com/images/spacer.gif";
   
   for (let i_Idx=0; i_Idx < 12; i_Idx++) {
     if (i_Idx < i_TheCode.length) {
@@ -87,7 +87,7 @@ function Calculate() {
         if (i_Check == 10) {
           i_Check = 0; }
         i_Result = i_TheCode.substring(0,3) + "-" + i_TheCode.substring(3,4) + "-" + i_TheCode.substring(4,6) + "-" + i_TheCode.substring(6,12) + "-" + i_Check;
-        i_BarCode = "http://www.mydocz.com/isbn13barcode.aspx?code=" + i_TheCode + i_Check; }
+        i_BarCode = "https://www.mydocz.com/isbn13barcode.aspx?code=" + i_TheCode + i_Check; }
       else if(i_TheCode.length > 12) {
         i_Result = "To Long, Not 12 Digits"; } }
     document.getElementById("Result").innerHTML = i_Result;
